@@ -1,37 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Online Shoping</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        div {
+            background-color: blueviolet;
+            text-align: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            font-size: 18px;
+        }
+
+        .tab1,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 1248px;
+            padding: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            background-color: rgb(44, 132, 214);
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        th:hover {
+            background-color: rgb(31, 66, 122)
+        }
+
+        .one {
+            background-color: rgb(31, 66, 122);
+        }
+
+        .hedone {
+            padding: 15px;
+            background-color: rgb(218, 142, 225);
+            text-align: center;
+        }
+
+        .tab2,
+        .six,
+        .seven,
+        .eight,
+        .nine,
+        .ten,
+        .eleven {
+            border: 2px solid black;
+            border-collapse: collapse;
+            background-color: blueviolet;
+            width: 5px;
+            width: 1000px;
+            border-color: white;
+        }
+        li{font-size: 25px;}
+    </style>
 </head>
+
 <body>
-    <a href="./index.html">Home</a>
-    <a href="./Foods/foods.html">Foods</a>
-    <a href="./Grocery/grocery.html">Grocery</a>
-    <a href="./About/about.html">About</a>
-    <h2>Our Food Menu</h2><hr>
-    <a href="#Burgers">Burgers</a>
-    <a href="#Bar B.Q">Bar B.Q</a>
-    <h2 align="center" id="Burgers">Burgers</h2><hr>
+    <div>
+        <h1>WelCome To</h1>
+        <h1>Online Shoping Center
+        </h1>
+    </div>
+    <table class="tab1">
+        <tr>
+            <th class="one"><a href="./index.html">HOME</a></th>
+            <th class="two"><a href="./fruits.html">FRUITS</a></th>
+            <th class="three"><a href="./grocery.html">GROCERY</a></th>
+            <th class="four"><a href="./about.html">ABOUT</a></th>
+            <th class="five"><a href="./contact.html">CONTACT</a></th>
+        </tr>
+    </table><br>
+    <h1 class="hedone">OUR FAST FOOD MENU</h1><br>
+    <table class="tab2" align="center">
+        <tr>
+            <th class="six"><a href="#BURGERS">Burgers</a></td>
+            <th class="seven"><a href="#Bar B.Q">Bar B.Q</a></td>
+            <th class="eight"><a href="#Rice">Rice</a></td>
+        </tr>
+        <tr>
+            <th class="nine"><a href="#Toppings">Toppings</a></td>
+            <th class="ten"><a href="#Deals">Deals</a></td>
+            <th class="eleven"><a href="#Others">Others</a></td>
+        </tr>
+    </table><br>
+    <h1 class="hedone" id="BURGERS">BURGERS</h1><br>
     <ul>
-       <li>Zinger Burger---------------------------------------------------------<del>Rs.300</del><ins>Rs.240</ins></li>
-       <br>
-       <li>Zinger Cheese Burger------------------------------------------------<del>Rs.320</del><ins>Rs.280</ins></li>
-       <br>
-       <li>Chicken Burger-------------------------------------------------------<del>Rs.200</del><ins>Rs.150</ins></li>
-       <br>
-       <li>Chicken Chesse Burger----------------------------------------------<del>Rs.220</del><ins>Rs.170</ins></li>
-       
+        <li>Zinger Burger--------------------------------------------<del>Rs.300</del><ins>Rs.240</ins></li><br>
+        <li>Zinger Cheese Burger--------------------------------------------<del>Rs.320</del><ins>Rs.280</ins></li><br>
+        <li>Chicken Burger-------------------------------------------- <del>Rs.200</del><ins>Rs.150</ins></li><br>
+        <li>Chicken Cheese Burger-------------------------------------------- <del>Rs.220</del><ins>Rs.170</ins></li><br>
     </ul>
-    <hr>
-    <h2 align="center" id="Bar B.Q">Bar B.Q.</h2>
-    <hr>
+    <h1 class="hedone" id="Bar B.Q">Bar B.Q</h1><br>
     <ul>
-        <li>Chicken Tikka--------------------------------------------------------<del>Rs.300</del><ins>Rs.240</ins></li>
-        <br>
-        <li>Chicken Boti----------------------------------------------------------<del>Rs.250</del><ins>Rs.200</ins></li>
+        <li>Zinger Burger--------------------------------------------<del>Rs.300</del><ins>Rs.240</ins></li><br>
+        <li>Zinger Cheese Burger-------------------------------------------- <del>Rs.320</del><ins>Rs.280</ins></li><br>
+        <li>Chicken Burger-------------------------------------------- <del>Rs.200</del><ins>Rs.150</ins></li><br>
+        <li>Chicken Cheese Burger--------------------------------------------<del>Rs.220</del><ins>Rs.170</ins></li><br>
     </ul>
-    <a href="#top">Top</a>
-</body>
+    <h1 class="hedone" id="Rice">Rice</h1><br>
+    <ul>
+        <li>Zinger Burger-------------------------------------------- <del>Rs.300</del><ins>Rs.240</ins></li><br>
+        <li>Zinger Cheese Burger--------------------------------------------<del>Rs.320</del><ins>Rs.280</ins></li><br>
+        <li>Chicken Burger--------------------------------------------<del>Rs.200</del><ins>Rs.150</ins></li><br>
+        <li>Chicken Cheese Burger-------------------------------------------- <del>Rs.220</del><ins>Rs.170</ins></li><br>
+    </ul>
+    <h1 class="hedone" id="Toppings">Toppings</h1><br>
+    <ul>
+        <li>Zinger Burger-------------------------------------------- <del>Rs.300</del><ins>Rs.240</ins></li><br>
+        <li>Zinger Cheese Burger-------------------------------------------- <del>Rs.320</del><ins>Rs.280</ins></li><br>
+        <li>Chicken Burger--------------------------------------------<del>Rs.200</del><ins></ins>Rs.150</li><br>
+        <li>Chicken Cheese Burger-------------------------------------------- <del>Rs.220 </del><ins>Rs.170</ins></li><br>
+    </ul>
+    <h1 class="hedone" id="Deals">Deals</h1><br>
+    <ul>
+        <li>Zinger Burger-------------------------------------------- <del>Rs.300</del><ins>Rs.240</ins></li><br>
+        <li>Zinger Cheese Burger-------------------------------------------- <del>Rs.320</del><ins>Rs.280</ins></li><br>
+        <li>Chicken Burger--------------------------------------------<del>Rs.200</del><ins></ins>Rs.150</li><br>
+        <li>Chicken Cheese Burger-------------------------------------------- <del>Rs.220 </del><ins>Rs.170</ins></li><br>
+    </ul>
+    <h1 class="hedone" id="Others">Others</h1><br>
+    <ul>
+        <li>Zinger Burger-------------------------------------------- <del>Rs.300</del><ins>Rs.240</ins></li><br>
+        <li>Zinger Cheese Burger-------------------------------------------- <del>Rs.320</del><ins>Rs.280</ins></li><br>
+        <li>Chicken Burger--------------------------------------------<del>Rs.200</del><ins></ins>Rs.150</li><br>
+        <li>Chicken Cheese Burger-------------------------------------------- <del>Rs.220 </del><ins>Rs.170</ins></li><br>
+    </ul>
+    </body>
+
 </html>
